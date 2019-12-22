@@ -1,0 +1,15 @@
+{
+  "name": "pair-programming",
+  "version": "0.1.0",
+  "main": "bowling.js",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "prep": "yarn install && rm -rf .git",
+    "start": "yarn prep && code bowling.js bowling.test.js && yarn test",
+    "test": "jest --watchAll"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
